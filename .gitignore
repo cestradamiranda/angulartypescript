@@ -4,12 +4,14 @@
 dist
 tmp
 out-tsc
+public
+build
 
 # dependencies
 node_modules
 
 # IDEs and editors
-/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -32,6 +34,8 @@ node_modules
 npm-debug.log
 testem.log
 /typings
+
+
 
 # e2e
 /e2e/*.js
